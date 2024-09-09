@@ -7,6 +7,10 @@ body {
     background-color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .menu {
     position: fixed;
     top: 0;
@@ -200,4 +204,5 @@ ul.social-icons {
 
 .bolded {
     font-weight: bolder;
+    color: #ffff00;
 }
