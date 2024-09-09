@@ -168,16 +168,36 @@ ul.social-icons {
 }
 
 .totalabout {
-    margin-left: 15%;
-    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    box-sizing: border-box
+    margin-right: 20%;
+
 }
 
-.leftabout {
-    display: inline-block;
-    background-color: #eff8e2;
+.leftabout, .rightabout {
+    width: 48%;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .rightabout {
-    display: inline-block;
-    background-color: #8EB8E5;
+    margin-right: 10%;
+}
+
+.txt {
+    color: white;
+    font-family: "Fira Code", monospace;
+}
+
+.headertxt {
+    color: white;
+    font-family: "Fira Code", monospace;
+    font-size: 50px;
+}
+
+.bolded {
+    font-weight: bolder;
 }

@@ -10,12 +10,12 @@
     </head>
     <body>
         <header class="menu">
-            <h2 class="home">home</h2>
-            <h2 class="about">about</h2>
-            <h2 class="projects">projects</h2>
+            <a href="#home"><h2 class="home">home</h2></a>
+            <a href="#about"><h2 class="about">about</h2></a>
+                <a href="#projects"><h2 class="projects">projects</h2></a>
         </header>
 
-        <div class="snippit">
+        <div id="home" class="snippit">
             <div class="text-container">
                 <span class="hi" id="hi-typed"></span>
                 <span id="bigname-typed" class="bigname typed-text"></span>
@@ -34,14 +34,20 @@
             </ul>
         </div>
 
-        <div class = "totalabout">
+
+        <div id="about" class = "totalabout">
             <div class = "leftabout">
-                <h1>left</h1>
+                <h1 class = "headertxt">About</h1>
+                <p class = "txt">Hi! My name is Maya Degafe </p>
             </div>
             <div class = "rightabout">
-                <h1>right</h1>
+                <h1 class = "headertxt">Skills</h1>
+                <p class = "txt">I am a self-taught artist (I love landscapes), baker, and can recite the Gettysburg Address from memory. On a more related note, I am proficient in <span class="bolded">Java, Python, HTML</span> and <span class="bolded">JavaScript</span>!</p>
             </div>
-
+            <div id="projects" class="rightabout">
+                <h1 class = "headertxt">My Work</h1>
+                <p class = "txt">⚠️area is in progress⚠️</p>
+            </div>
         </div>
 
 
